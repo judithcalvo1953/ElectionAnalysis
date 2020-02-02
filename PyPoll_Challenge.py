@@ -80,7 +80,7 @@ with open(file_to_save, "w") as txt_file:
         PerCountySummary= (
             f"\nCounty Votes:\n"
             f"{county}: {cvote_percentage:.1f}%  ({cvotes:,})\n"
-            #f"____________________________\n")
+            f"____________________________\n")
         print(PerCountySummary, end="")
         txt_file.write(PerCountySummary) 
         #save the county results here
